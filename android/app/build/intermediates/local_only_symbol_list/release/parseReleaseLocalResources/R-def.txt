@@ -1,0 +1,7 @@
+R_DEF: Internal format may change without notice
+local
+color forge_bg
+color forge_brass
+drawable ic_forge
+style Theme.DropForge
+xml network_security_config

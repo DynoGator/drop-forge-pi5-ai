@@ -271,7 +271,7 @@ object Jobs {
             val out = File(app.cacheDir, "dropforge-kit.tar")
             out.outputStream().use { stream ->
                 val tar = TarWriter(stream)
-                tar.file("dropforge-kit/install.sh", installScript(file, state).encodeToByteArray(), 0o755)
+                tar.file("dropforge-kit/install.sh", installScript(file, state).encodeToByteArray(), 493)
                 tar.file("dropforge-kit/README.txt", readme(file, embedBinary).encodeToByteArray())
                 val local = localFile(file)
                 if (local != null && local.exists()) {

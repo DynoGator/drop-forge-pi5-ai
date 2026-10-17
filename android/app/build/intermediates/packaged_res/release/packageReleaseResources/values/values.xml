@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="forge_bg">#141311</color>
+    <color name="forge_brass">#E39A3C</color>
+    <style name="Theme.DropForge" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:statusBarColor">#141311</item>
+        <item name="android:navigationBarColor">#141311</item>
+        <item name="android:windowBackground">#141311</item>
+    </style>
+</resources>

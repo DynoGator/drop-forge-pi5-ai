@@ -4,7 +4,7 @@ import java.io.File
 import java.io.OutputStream
 
 class TarWriter(private val out: OutputStream) {
-    fun file(name: String, data: ByteArray, mode: Int = 0o644) {
+    fun file(name: String, data: ByteArray, mode: Int = 420) {
         require(name.length <= 100) { "Path too long: $name" }
         val header = ByteArray(512)
         writeString(header, 0, name, 100)
@@ -32,7 +32,7 @@ class TarWriter(private val out: OutputStream) {
         if (pad > 0) out.write(ByteArray(pad))
     }
 
-    fun file(name: String, source: File, mode: Int = 0o644) {
+    fun file(name: String, source: File, mode: Int = 420) {
         source.inputStream().use { input ->
             val size = source.length()
             require(name.length <= 100)

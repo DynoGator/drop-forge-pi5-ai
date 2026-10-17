@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "llc.resonantgenesis.dropforge.app-release-45:/xml_network_security_config.xml.flat",
+        "source": "llc.resonantgenesis.dropforge.app-main-46:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "llc.resonantgenesis.dropforge.app-release-45:/drawable_ic_forge.xml.flat",
+        "source": "llc.resonantgenesis.dropforge.app-main-46:/drawable/ic_forge.xml"
+    }
+]
