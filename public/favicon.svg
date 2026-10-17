@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" shape-rendering="crispEdges" role="img" aria-label="Drop Forge">
+  <rect width="16" height="16" rx="2" fill="#141311"/>
+  <path fill="#E39A3C" d="M4 4h8v1h3v2h-5v3h3v3H3v-3h3V7H1V5h3z"/>
+</svg>

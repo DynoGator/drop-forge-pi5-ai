@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Drop Forge",
+      "hasCanvas": false,
+      "bodyTextLen": 780,
+      "bodyTextHash": "e8fdc113bef54cb95160fc9114d9e75b49915641f63198206c2bf6e76b420405",
+      "bodyTextPrefix": "DROP FORGE Pi 5 and CM5. Bookworm or Trixie. Models Quant Pack P",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Drop Forge",
+      "hasCanvas": false,
+      "bodyTextLen": 689,
+      "bodyTextHash": "1df7a6fcfd4aa252f98afd085f4f19b3e667a648a9ce6157d606cdfe07270c64",
+      "bodyTextPrefix": "DROP FORGE 0 staged · Pi 5 8 GB Hub Pick the board, then only lo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}
